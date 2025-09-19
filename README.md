@@ -1,90 +1,88 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# 🕒 Beat Procrastination – Productivity Web App
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+**Beat Procrastination** is a multi-page web application designed to help users manage their time, stay organized, and overcome procrastination. It combines a **daily planner**, helpful **resources**, and actionable strategies to increase productivity.
 
 ---
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+## 🌟 Features
 
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
-
----
-
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
-
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+- **Daily Planner:** Add multiple tasks per day with specific times and descriptions.
+- **Task Management:** Delete tasks easily, grouped by date.
+- **Responsive Design:** Works beautifully on desktop, tablet, and mobile devices.
+- **Navigation:** Hamburger menu for smaller screens with smooth open/close animations.
+- **UX Enhancements:** Subtle animations, hover effects, and interactive buttons for better engagement.
+- **Resources Page:** Curated links to productivity tools, books, and videos.
+- **Contact Form:** Users can send feedback or questions directly via a contact page.
+- **Favicon & App Icon:** Custom branding for your website.
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## 📁 Project Structure
 
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+project-root/
+├─ index.html # Home page
+├─ pages/
+│ ├─ about.html # About the project
+│ ├─ planner.html # Daily planner tool
+│ ├─ resources.html # Helpful links & tools
+│ └─ contact.html # Contact form page
+├─ css/
+│ ├─ style.css # Main stylesheet with animations
+│ └─ planner.css # Planner-specific styling
+├─ js/
+│ ├─ script.js # Navigation and menu interactions
+│ └─ planner.js # Planner functionality (add/delete tasks)
+├─ assets/
+│ └─ icon.png # App favicon or logo
+└─ README.md # Project documentation
 
 ---
 
-## Deliverables
+## 💻 Technologies Used
 
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+- **HTML5** – Semantic structure for content.  
+- **CSS3** – Styling, responsive design, and animations.  
+- **JavaScript (Vanilla)** – Dynamic interactivity for the planner and navigation.  
 
 ---
 
-## Outcome
+## 🎨 UX Enhancements
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+- Smooth header slide-down animation.  
+- Fade-in sections as users scroll.  
+- Hover effects on buttons and headings.  
+- Responsive hamburger menu with animated toggle.  
+- Planner tasks appear with smooth transitions.  
+
+---
+
+## 🚀 How to Use
+
+1. Open `index.html` in a web browser.
+2. Navigate using the top menu or hamburger icon on mobile.
+3. Go to **Planner** to add tasks:
+   - Choose a date.
+   - Set a time for your task.
+   - Add a description and submit.
+4. Tasks appear grouped by date, with delete functionality available.
+5. Explore **Resources** for productivity tools and tips.
+6. Use **Contact** to send messages or feedback.
+
+---
+
+## 📌 Notes
+
+- The website is **fully static**; no backend is required.  
+- Tasks are stored in-memory, meaning they will reset upon page refresh.  
+
+---
+
+## 🔗 Live Demo
+
+*(Add your GitHub Pages, Netlify, or Vercel deployment link here)*
+
+---
+
+## 👤 Author
+
+**Yvonne Samwel** – Frontend developer & UX enthusiast
