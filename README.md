@@ -79,7 +79,8 @@ project-root/
 
 ## 🔗 Live Demo
 
-*(Add your GitHub Pages, Netlify, or Vercel deployment link here)*
+[View the live demo here](https://ysamwel.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
+
 
 ---
 
