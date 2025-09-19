@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Beat Procrastination</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <img src="../assets/icon.png" alt="Productivity Icon" class="header-icon">
+      <h1>Beat Procrastination</h1>
+      <p>Plan your day, stay productive, beat procrastination!</p>
+    </div>
+
+    <!-- Hamburger button -->
+    <button class="hamburger" id="hamburger">&#9776;</button>
+
+    <!-- Navigation -->
+    <nav id="nav-menu">
+      <button class="close-btn" id="close-btn">&times;</button>
+
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="planner.html">Planner</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contact Us</h2>
+      <p>Have questions or feedback? Send us a message!</p>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Beat Procrastination | Built with love</p>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
